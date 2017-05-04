@@ -2,11 +2,11 @@
 ## Description
 Created by Nancy Kelln to help test Internationalisation. I have also found it useful to test search capabilities of apps, particularly where international aspects permeate the [Platform](platform), User's settings, User Interfaces, and Content. SPIES comprises the following topics/terms:
 
-* [**S**pecial characters](special_characters)
-* [**P**ages and content](pages_and_content)
-* [**I**ntegrations](integrations)
-* [**E**rror messages](errors)
-* [**S**pecial formats](special_formats)
+* [**S**pecial characters](special_characters.md)
+* [**P**ages and content](pages_and_content.md)
+* [**I**ntegrations](integrations.md)
+* [**E**rror messages](errors.md)
+* [**S**pecial formats](special_formats.md)
 ## Testing focus
 Language, Localisation, Internationalisation, and Search (both searching and the result that are returned).
 ## Test ideas
