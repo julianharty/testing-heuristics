@@ -1,0 +1,12 @@
+<div class='title'><%= title %></div>
+
+<% if(similar && similar.length) { %>
+    <small class='similar'>
+        Also known as 
+        <% similar.forEach(function(s){ %>
+            <a href='term_<%= s.name %>.html'><%= s.title %></a>
+        <% }) %>
+    </small>
+<% } %>
+
+<%- body %>

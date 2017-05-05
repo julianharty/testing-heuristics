@@ -1,0 +1,47 @@
+{
+    "heuristics": [
+        {
+            "title": "I SLICED UP FUN",
+            "filename": "./terms/islicedupfun.md",
+            "terms": [
+                "inputs",
+                " ",
+                "store",
+                "location",
+                "interaction",
+                "c",
+                "e",
+                "d",
+                " ",
+                "u",
+                "p",
+                " ",
+                "f",
+                "u",
+                "n"
+            ]
+        }
+    ],
+    "terms": {
+        "inputs": {
+            "title": "Inputs",
+            "filename": "./terms/inputs.md",
+            "similar": []
+        },
+        "store": {
+            "title": "App Store",
+            "filename": "./terms/store.md",
+            "similar": []
+        },
+        "location": {
+            "title": "Location",
+            "filename": "./terms/location.md",
+            "similar": [
+                {
+                    "name": "location",
+                    "title": "position"
+                }
+            ]
+        }
+    }
+}

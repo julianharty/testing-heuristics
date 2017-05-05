@@ -1,0 +1,33 @@
+{
+  "name": "testing-heuristics",
+  "version": "1.0.0",
+  "description": "Experiments to see if we can establish evidence of the value of testing heuristics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "less": "./node_modules/.bin/lessc style.less ./dist/style.css",
+    "build": "./node_modules/.bin/ts-node index.ts",
+    "start": "npm run less && npm run build && echo \"\\n\\nOpen ./dist/index.html in a browser\\n\\n\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianharty/testing-heuristics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianharty/testing-heuristics/issues"
+  },
+  "homepage": "https://github.com/julianharty/testing-heuristics#readme",
+  "dependencies": {
+    "@types/core-js": "^0.9.41",
+    "@types/ejs": "^2.3.33",
+    "@types/node": "^7.0.16",
+    "core-js": "^2.4.1",
+    "ejs": "^2.5.6",
+    "less": "^2.7.2",
+    "markdown": "^0.5.0",
+    "ts-node": "^3.0.3",
+    "typescript": "^2.3.2"
+  }
+}
