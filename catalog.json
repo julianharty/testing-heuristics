@@ -1,6 +1,6 @@
 {
-    "heuristics": [
-        {
+  "heuristics": [
+    {
             "title": "I SLICED UP FUN",
             "filename": "./terms/islicedupfun.md",
             "terms": [
@@ -20,28 +20,54 @@
                 "u",
                 "n"
             ]
-        }
+        },
+        {
+          "title": "SPIES",
+          "filename": "./terms/spies.md",
+          "terms": [
+    		      "special_characters",
+              "pages_and_content",
+              "integrations",
+              "errors",
+              "special formats"
+	    ]
+    }
     ],
     "terms": {
+        "errors": {
+            "title": "Errors & Error messages",
+            "filename": "./terms/errors.md",
+            "similar": []
+        },
         "inputs": {
             "title": "Inputs",
             "filename": "./terms/inputs.md",
             "similar": []
         },
-        "store": {
-            "title": "App Store",
-            "filename": "./terms/store.md",
-            "similar": []
-        },
-        "location": {
-            "title": "Location",
-            "filename": "./terms/location.md",
-            "similar": [
-                {
-                    "name": "location",
-                    "title": "position"
-                }
-            ]
+	"integrations": {
+	    "title": "Integrations",
+	    "filename": "./terms/integrations.md",
+	    "similar": []
+    },
+    "location": {
+      "title": "Location",
+      "filename": "./terms/location.md",
+      "similar": [
+        {
+          "name": "location",
+          "title": "position"
         }
+      ]
+    },
+    "special_characters": {
+      "title": "Special Characters",
+	    "filename": "./terms/special_characters.md",
+	    "similar": []
+    },
+    "store": {
+      "title": "App Store",
+      "filename": "./terms/store.md",
+      "similar": []
     }
+  }
 }
