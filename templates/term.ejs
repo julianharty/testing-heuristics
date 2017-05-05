@@ -1,12 +1,12 @@
-<div class='title'><%= title %></div>
+<div class='header'><%= title %></div>
 
 <% if(similar && similar.length) { %>
-    <small class='similar'>
+    <div class='aka'>
         Also known as 
         <% similar.forEach(function(s){ %>
             <a href='term_<%= s.name %>.html'><%= s.title %></a>
         <% }) %>
-    </small>
+    </div>
 <% } %>
 
 <%- body %>

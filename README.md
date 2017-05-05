@@ -13,3 +13,9 @@ To build html files, run the following:
 > npm install
 > npm start
 ```
+
+## Contributing Code
+* Take a look at **catalog.json** which is pretty self explanatory.
+* Output goes to ./dist
+* Templates are in ./templates
+* Styles are in ./style.less
