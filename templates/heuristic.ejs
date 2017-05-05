@@ -1,0 +1,22 @@
+<div class="hero">
+<% terms.forEach(function(term){ %>
+    <% if(term === ' ') { %>
+        <div class="spacer"></div>
+    <% } else { %>
+    <a class='letter' href='term_<%= term %>.html'>
+    <% term.split('').forEach(function(letter){ %>
+        <span><%= letter.toUpperCase() %></span>
+        <% }); %>
+    <% } %>
+    </a>
+<% }); %>
+</div>
+<div class="body">
+    <%- body %>
+
+    <div class="use-count">
+        <span class="count">17</span>
+        <span class="message">people have found<br />bugs using this</span>
+        <button class="plus-one">+1</button>
+    </div>
+</div>
