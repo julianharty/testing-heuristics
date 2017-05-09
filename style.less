@@ -46,6 +46,16 @@ button {
     font-size: 90%;
 }
 
+.top-right-title {
+    position: absolute;
+    right: 10px;
+    height: 40px;
+    line-height: 40px;
+    top: 20px;
+    font-size: 150%;
+    color: @gray-dark;
+}
+
 .hero {
     overflow-x: scroll;
     overflow-y: auto;
@@ -122,21 +132,20 @@ button {
 }
 
 @back-button-size: 40px;
-
 .back-button {
     left: 10px;
     top: 25px;
     width: @back-button-size;
     height: @back-button-size;
-    line-height:@back-button-size;
+    line-height: @back-button-size;
     position: absolute;
-    border:none;
-    background:none;
-    font-size:200%;
-    padding:0;
-    color:@black;
+    border: none;
+    background: none;
+    font-size: 200%;
+    padding: 0;
+    color: @black;
     &.white {
-        color:@white;
+        color: @white;
     }
 }
 
