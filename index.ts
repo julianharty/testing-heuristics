@@ -30,13 +30,12 @@ const rewriteUrls = function (html) {
         let fileContent;
 
         try {
-            fileContent = fs.readFileSync(oldPathName, 'utf8');
+            fileContent = markdown.toHTML(fs.readFileSync(oldPathName, 'utf8'));
         } catch (e) {
             fileContent = templates.error;
         }
 
-        const content = markdown.toHTML(fileContent);
-        const page = EJS.render(templates.page, { content });
+        const page = EJS.render(templates.page, { content: fileContent });
 
         fs.writeFileSync(newPathName, page, 'utf8');
         console.log(oldUrl, newUrl)
