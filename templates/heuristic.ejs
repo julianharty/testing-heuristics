@@ -1,14 +1,17 @@
+<button class='back-button' onclick='goBack()' title='Go Back'><</button>
+<div class="top-right-title"><%= title %></div>
 <div class="hero">
 <% terms.forEach(function(term){ %>
     <% if(term === ' ') { %>
-        <div class="spacer"></div>
+        <div class="letter spacer"><br /></div>
     <% } else { %>
-    <a class='letter' href='term_<%= term %>.html'>
-    <% term.split('').forEach(function(letter){ %>
-        <span><%= letter.toUpperCase() %></span>
-        <% }); %>
+        <a class='letter' href='term_<%= term %>.html'>
+            <% term.split('').forEach(function(letter){ %>
+                <span><%= letter.toUpperCase() %></span>
+            <% }); %>
+        </a>
+        <br />
     <% } %>
-    </a>
 <% }); %>
 </div>
 <div class="body">

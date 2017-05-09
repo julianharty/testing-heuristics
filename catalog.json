@@ -1,53 +1,53 @@
 {
   "heuristics": [
     {
-            "title": "I SLICED UP FUN",
-            "filename": "./terms/islicedupfun.md",
-            "terms": [
-                "inputs",
-                " ",
-                "store",
-                "location",
-                "interaction",
-                "c",
-                "e",
-                "d",
-                " ",
-                "u",
-                "p",
-                " ",
-                "f",
-                "u",
-                "n"
-            ]
-        },
-        {
-          "title": "SPIES",
-          "filename": "./terms/spies.md",
-          "terms": [
-    		      "special_characters",
-              "pages_and_content",
-              "integrations",
-              "errors",
-              "special formats"
-	    ]
+      "title": "I SLICED UP FUN",
+      "filename": "./terms/islicedupfun.md",
+      "terms": [
+        "inputs",
+        " ",
+        "store",
+        "location",
+        "interaction",
+        "c",
+        "e",
+        "d",
+        " ",
+        "u",
+        "p",
+        " ",
+        "f",
+        "u",
+        "n"
+      ]
+    },
+    {
+      "title": "SPIES",
+      "filename": "./terms/spies.md",
+      "terms": [
+        "special characters",
+        "pages and content",
+        "integrations",
+        "errors",
+        "special formats"
+      ]
     }
-    ],
-    "terms": {
-        "errors": {
-            "title": "Errors & Error messages",
-            "filename": "./terms/errors.md",
-            "similar": []
-        },
-        "inputs": {
-            "title": "Inputs",
-            "filename": "./terms/inputs.md",
-            "similar": []
-        },
-	"integrations": {
-	    "title": "Integrations",
-	    "filename": "./terms/integrations.md",
-	    "similar": []
+  ],
+  "terms": {
+    "errors": {
+      "title": "Errors & Error messages",
+      "filename": "./terms/errors.md",
+      "similar": []
+    },
+    "inputs": {
+      "title": "Inputs",
+      "filename": "./terms/inputs.md",
+      "similar": []
+    },
+    "integrations": {
+      "title": "Integrations",
+      "filename": "./terms/integrations.md",
+      "similar": []
     },
     "location": {
       "title": "Location",
@@ -59,10 +59,10 @@
         }
       ]
     },
-    "special_characters": {
+    "special characters": {
       "title": "Special Characters",
-	    "filename": "./terms/special_characters.md",
-	    "similar": []
+      "filename": "./terms/special_characters.md",
+      "similar": []
     },
     "store": {
       "title": "App Store",

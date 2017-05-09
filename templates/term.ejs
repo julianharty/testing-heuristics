@@ -1,12 +1,14 @@
+<button class='back-button white' onclick='goBack()' title='Go Back'><</button>
 <div class='header'><%= title %></div>
 
 <% if(similar && similar.length) { %>
     <div class='aka'>
-        Also known as 
+        Related terms: 
         <% similar.forEach(function(s){ %>
             <a href='term_<%= s.name %>.html'><%= s.title %></a>
         <% }) %>
     </div>
 <% } %>
-
-<%- body %>
+<div class="body">
+    <%- body %>
+</div>
