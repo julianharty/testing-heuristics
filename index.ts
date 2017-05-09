@@ -14,7 +14,13 @@ const templates = {
 
 catalog.heuristics.map(h => {
     h.body = markdown.toHTML(fs.readFileSync(h.filename, 'utf8'));
-
+    h.terms = h.terms.map(t => {
+        const key = t;
+        return {
+            title:markdown.toHTML(t).slice(3, -4),
+            key: t
+        }
+    });
     const content = EJS.render(templates.heuristic, h);
     const page = EJS.render(templates.page, { content });
     fs.writeFileSync(`./dist/${h.title}.html`, page, 'utf8');

@@ -4,52 +4,52 @@
       "title": "I SLICED UP FUN",
       "filename": "./terms/islicedupfun.md",
       "terms": [
-        "inputs",
+        "**i**nputs",
         " ",
-        "store",
-        "location",
-        "interaction",
-        "c",
-        "e",
-        "d",
+        "**s**tore",
+        "**l**ocation",
+        "**i**nteraction",
+        "**c**",
+        "**e**",
+        "**d**",
         " ",
-        "u",
-        "p",
+        "**u**",
+        "**p**",
         " ",
-        "f",
-        "u",
-        "n"
+        "**f**",
+        "**u**",
+        "**n**"
       ]
     },
     {
       "title": "SPIES",
       "filename": "./terms/spies.md",
       "terms": [
-        "special characters",
-        "pages and content",
-        "integrations",
-        "errors",
-        "special formats"
+        "**s**pecial characters",
+        "**p**ages and content",
+        "**i**ntegrations",
+        "**e**rrors",
+        "**s**pecial formats"
       ]
     }
   ],
   "terms": {
-    "errors": {
+    "**e**rrors": {
       "title": "Errors & Error messages",
       "filename": "./terms/errors.md",
       "similar": []
     },
-    "inputs": {
+    "**i**nputs": {
       "title": "Inputs",
       "filename": "./terms/inputs.md",
       "similar": []
     },
-    "integrations": {
+    "**i**ntegrations": {
       "title": "Integrations",
       "filename": "./terms/integrations.md",
       "similar": []
     },
-    "location": {
+    "**l**ocation": {
       "title": "Location",
       "filename": "./terms/location.md",
       "similar": [
@@ -59,12 +59,12 @@
         }
       ]
     },
-    "special characters": {
+    "**s**pecial characters": {
       "title": "Special Characters",
       "filename": "./terms/special_characters.md",
       "similar": []
     },
-    "store": {
+    "**s**tore": {
       "title": "App Store",
       "filename": "./terms/store.md",
       "similar": []
