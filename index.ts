@@ -54,7 +54,7 @@ catalog.heuristics.map(h => {
             key: t
         }
     });
-    const content = EJS.render(templates.heuristic, h);
+    const content = rewriteUrls(EJS.render(templates.heuristic, h));
 
     const page = EJS.render(templates.page, { content });
     fs.writeFileSync(`./dist/${h.title}.html`, page, 'utf8');
