@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Testing Heuristics</title>
+    <script src='./analytics.js'></script>
     <link href='./style.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Taviraj:400,700" rel="stylesheet">
   </head>
@@ -23,4 +24,14 @@
     text-transform:uppercase;
   }
   </style>
+
+  <!-- Google Analytics -->
+<script>
+ga('create', 'UA-98792322-1', 'auto');
+ga('set', 'checkProtocolTask', null); // Disable file protocol checking.
+ga('set', 'checkStorageTask', null); // Disable cookie storage checking.
+ga('set', 'historyImportTask', null); // Disable history checking (requires reading from cookies).
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
 </html>
