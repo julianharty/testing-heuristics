@@ -50,8 +50,9 @@ catalog.heuristics.map(h => {
     h.terms = h.terms.map(t => {
         const key = t;
         return {
-            title:markdown.toHTML(t).slice(3, -4),
-            key: t
+            title: markdown.toHTML(t).slice(3, -4),
+            key: t,
+            escaped: t.replace(/\*/g, '').replace(/ /g, '_')
         }
     });
     const content = rewriteUrls(EJS.render(templates.heuristic, h));
@@ -69,7 +70,8 @@ Object.keys(catalog.terms)
         content = rewriteUrls(content);
 
         const page = EJS.render(templates.page, { content });
-        fs.writeFileSync(`./dist/term_${key}.html`, page, 'utf8');
+        const escaped = key.replace(/\*/g, '').replace(/ /g, '_');
+        fs.writeFileSync(`./dist/term_${escaped}.html`, page, 'utf8');
     });
 
 const welcomeBody = markdown.toHTML(fs.readFileSync('./terms/welcome.md', 'utf8'));

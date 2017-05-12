@@ -7,7 +7,7 @@
         <div class="letter spacer"><br /></div>
     <% } else { %>
         <li class='letter'>
-            <a href='term_<%= term.key %>.html'><%- term.title %></a>
+            <a href='term_<%= term.escaped %>.html'><%- term.title %></a>
         </li>
     <% } %>
 <% }); %>
