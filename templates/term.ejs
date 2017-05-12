@@ -21,6 +21,6 @@
 
 <script>
 function plusOne(){
-    ga('send', 'event', 'Plus One', 'click', '<%= title %>');
+    ga('send', 'event', 'Plus One', 'click', "<%= title.replace(/\"/g, '') %>");
 }
 </script>
