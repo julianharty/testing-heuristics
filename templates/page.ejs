@@ -28,6 +28,9 @@
   <!-- Google Analytics -->
 <script>
 ga('create', 'UA-98792322-1', 'auto');
+ga('set', 'checkProtocolTask', null); // Disable file protocol checking.
+ga('set', 'checkStorageTask', null); // Disable cookie storage checking.
+ga('set', 'historyImportTask', null); // Disable history checking (requires reading from cookies).
 ga('send', 'pageview');
 </script>
 <!-- End Google Analytics -->
