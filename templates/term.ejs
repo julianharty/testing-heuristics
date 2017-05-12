@@ -11,4 +11,16 @@
 <% } %>
 <div class="body">
     <%- body %>
+
+    <div class="use-count">
+        <!--<span class="count">17</span>-->
+        <span class="message">Did you find a bug with this?</span>
+        <button class="plus-one" onclick="plusOne()">+1</button>
+    </div>
 </div>
+
+<script>
+function plusOne(){
+    ga('send', 'event', 'Plus One', 'click', '<%= title %>');
+}
+</script>
