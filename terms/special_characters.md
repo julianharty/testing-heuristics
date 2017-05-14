@@ -6,12 +6,21 @@ How text is encoded, processed, and stored can also lead to issues, frustration,
 
 UNICODE enables programs to work with the many human languages around the world. However, for various reasons, there are several ways UNICODE content is 'encoded'. For programmers it a challenge to write concise software that copes with all the various encodings, so some apps may not handle some formats at all, and others may have flaws in processing UNICODE correctly.
 ## Testing focus
+When testing special characters aim to test how well the software handles these characters, when:
+
+* they are input
+* they are processed e.g. word-counts, spell-checks, etc.
+* they are presented to the user on screen, in print, etc.
+
 ## Test ideas
 Test any text inputs using characters, words, sentences, etc. from various languages. These may include:
 
 * those used in Western Europe (which may be encoded in 8-bit ASCII such as àéïøū)
 * those which require UNICODE encoding and read from left-to-right
 * those that read from right-to-left such as Hebrew, Arabic, etc.
+* punctuation, including those language- and format- specific including speech marks, brackets, etc. Here are some examples of the rich range of both:
+<https://unicode-table.com/en/sets/quotation-marks/>
+<http://xahlee.info/comp/unicode_matching_brackets.html>
 
 ### Tips
 There are lots of text samples we can use for testing. These can be used both interactively, e.g. by copy/pasting them into text inputs, and programmatically in automated tests. Some examples are available in the Further reading section.
