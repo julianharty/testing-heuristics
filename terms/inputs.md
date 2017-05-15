@@ -9,3 +9,4 @@ The test automation frameworks are often limited to text and touch. They can rea
 ## Test ideas
 
 * Rotate (see PAOLO heuristic).
+* [Interactions](interaction.md).

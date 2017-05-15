@@ -8,17 +8,17 @@
         " ",
         "**s**tore",
         "**l**ocation",
-        "**i**nteraction",
-        "**c**",
-        "**e**",
-        "**d**",
+        "**i**nteractions / **i**nterruptions",
+        "**c**ommunication",
+        "**e**rgonomics",
+        "**d**ata",
         " ",
-        "**u**",
-        "**p**",
+        "**u**sability",
+        "**p**latform",
         " ",
-        "**f**",
-        "**u**",
-        "**n**"
+        "**f**unction",
+        "**u**ser scenarios",
+        "**n**etwork"
       ]
     },
     {
@@ -50,7 +50,7 @@
       "similar": []
     },
     "**i**nteraction": {
-      "title": "Interactions",
+      "title": "Interactions / Interruptions?",
       "filename": "./terms/interaction.md",
       "similar": []
     },
