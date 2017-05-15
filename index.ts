@@ -37,7 +37,7 @@ const rewriteUrls = function (html) {
 
         const page = EJS.render(templates.page, { content: fileContent });
 
-        fs.writeFileSync(newPathName, page, 'utf8');
+        fs.writeFileSync(newPathName, rewriteUrls(page), 'utf8');
         console.log(oldUrl, newUrl)
         html = html.replace(new RegExp(oldUrl, 'g'), newUrl);
     });
