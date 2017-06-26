@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rm ./dist/*.html && rm ./dist/*.css && rm -rf ./dist/A",
+    "clean": "rm ./dist/*.html ; rm ./dist/*.css ; rm ./dist/*.js ; rm ./dist/*.png ; rm -rf ./dist/A || true",
     "less": "./node_modules/.bin/lessc style.less ./dist/style.css",
     "build": "./node_modules/.bin/ts-node index.ts",
     "include": "cp include/* dist/",

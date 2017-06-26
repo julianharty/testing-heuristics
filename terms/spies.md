@@ -15,3 +15,5 @@ Language, Localisation, Internationalisation, and Search (both searching and the
 Experiment with various languages, those you're familiar with, and those that you don't understand. Where the app presents contents, see if you can obtain content in several languages. For the Kiwix apps, there are lots of ZIM files in various languages, the 2 character language code, e.g. ES for Spanish, are often incorporated into the filename.
 ## Further reading
 Nancy's article introducing SPIES is online at http://www.associationforsoftwaretesting.org/2011/01/30/international-spies-in-testing-2/
+
+Some thoughts on translation by Jyothi Rangaiah,  <https://chroniclesoftesting.blogspot.se/2017/05/few-pointers-to-translator.html>. While these aren't testing ideas they provide a good indication of the scope of translating which is part of internationalisation. 
